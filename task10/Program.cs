@@ -9,10 +9,8 @@
 // ●
 // 918 -> 98
 
-
+Console.WriteLine($"Введите число");
 int digit = new Random().Next(100, 1000);
-System.Console.WriteLine(digit);
-int digit1 = digit/100;
-int digit2 = digit%10;
+Console.WriteLine($"Введите число {digit}");
+Console.WriteLine($"Вторая цифра этого числа {(digit/10)%10}");
 
-Console.WriteLine ($"{digit1*10+digit2}");
