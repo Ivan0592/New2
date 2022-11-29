@@ -9,6 +9,8 @@ int [] mass = new int [count];
 for (int i=0; i<count; i++)
 {
     mass[i] = new Random().Next(0, 2);
-    Console.Write(mass[i]);
+    // Console.Write(mass[i]);
 }
+
+Console.Write('[' + String.Join(" ", mass) + ']');
 
