@@ -1,0 +1,15 @@
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.csproj.AssemblyReference.cache
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.AssemblyInfoInputs.cache
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.AssemblyInfo.cs
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.csproj.CoreCompileInputs.cache
+C:\Users\irapt\Documents\New2\HomeWork18\bin\Debug\net6.0\HomeWork18.exe
+C:\Users\irapt\Documents\New2\HomeWork18\bin\Debug\net6.0\HomeWork18.deps.json
+C:\Users\irapt\Documents\New2\HomeWork18\bin\Debug\net6.0\HomeWork18.runtimeconfig.json
+C:\Users\irapt\Documents\New2\HomeWork18\bin\Debug\net6.0\HomeWork18.dll
+C:\Users\irapt\Documents\New2\HomeWork18\bin\Debug\net6.0\HomeWork18.pdb
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.dll
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\refint\HomeWork18.dll
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.pdb
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\HomeWork18.genruntimeconfig.cache
+C:\Users\irapt\Documents\New2\HomeWork18\obj\Debug\net6.0\ref\HomeWork18.dll
