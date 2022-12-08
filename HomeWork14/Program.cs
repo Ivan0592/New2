@@ -4,28 +4,41 @@
 
 // 1, -7, 567, 89, 223-> 3
 
-int[] FillArray(int size)
-{
-    int[] arr = new int[size];
-    for(int i = 0; i < arr.Length; i++)
-    {
-        arr [i] = new Random().Next(-10000, 10000);
+// int[] FillArray(int size)
+// {
+//     int[] arr = new int[size];
+//     for(int i = 0; i < arr.Length; i++)
+//     {
+//         arr [i] = new Random().Next(-10000, 10000);
     
-    }
-    return arr;
-}
-Console.WriteLine("Введите кол-во чисел: ");
-int num = Convert.ToInt32(Console.ReadLine());
-int[] array = FillArray(num);
-Console.WriteLine(string.Join(", ", array));
-int count = 0;
+//     }
+//     return arr;
+// }
+// Console.WriteLine("Введите кол-во чисел: ");
+// int num = Convert.ToInt32(Console.ReadLine());
+// int[] array = FillArray(num);
+// Console.WriteLine(string.Join(", ", array));
+// int count = 0;
 
-for(int i = 0; i < array.Length; i++)
+// for(int i = 0; i < array.Length; i++)
+// {
+//     if (array[i] >=0 & array[i] <= 10000)
+//     {
+//         count++;
+//     }
+// }
+// Console.WriteLine($"Пользователем введено чисел больше нуля: {count} ");    
+
+Console.Write("Введите числа через пробел: ");
+int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int count = 0;
+ 
+for (int i = 0; i < arr.Length; i++)
 {
-    if (array[i] >=0 & array[i] <= 10000)
+    if (arr[i] > 0)
     {
         count++;
     }
 }
-Console.WriteLine($"Пользователем введено чисел больше нуля: {count} ");    
-
+ 
+Console.WriteLine($"Кол-во чисел больше нуля: {count}");
