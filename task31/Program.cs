@@ -49,5 +49,5 @@ for(int k = 0; k < 10; k++)
         
 
     }
-    Console.WriteLine($"Кол-во повторений для {k} = {count}");
+    if(count != 0) Console.WriteLine($"Кол-во повторений для {k} = {count}");
 }
